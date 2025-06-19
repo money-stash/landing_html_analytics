@@ -60,7 +60,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 /*Basic style*/
 body {
   font-family: "Roboto", sans-serif;
-  background: #fff;
+  background: #f8f9ff;
 }
 
 .container {
@@ -80,13 +80,38 @@ body {
 p,
 a,
 button {
-  color: #000;
+  color: #8794ba;
 }
 
 img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.intro-analytics {
+  background: #172755;
+  padding-top: 50px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 78px;
+  text-decoration: none;
+}
+.header__logo img {
+  margin-right: 13px;
+}
+.header__logo p {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
